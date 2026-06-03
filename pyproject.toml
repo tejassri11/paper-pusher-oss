@@ -1,0 +1,14 @@
+[project]
+name = "paper-pusher"
+version = "0.1.0"
+description = "AI-assisted research workflow toolkit for claims, evidence, reviews, and handoffs."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Maintainers"}]
+
+[project.scripts]
+paper-pusher = "paper_pusher.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

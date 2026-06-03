@@ -1,0 +1,9 @@
+claims:
+  - id: C1
+    text: "The demo workflow improves traceability for small projects."
+    strength: moderate
+    evidence: [E1]
+  - id: C2
+    text: "The demo proves universal research quality improvement."
+    strength: strong
+    evidence: [E2]
